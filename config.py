@@ -1,0 +1,6 @@
+customhost = "student.cw7urhisbpx0.us-east-1.rds.amazonaws.com"
+customuser = "diva"
+custompass = "divakar143"
+customdb = "student"
+custombucket = "adstudent"
+customregion = "us-east-1"

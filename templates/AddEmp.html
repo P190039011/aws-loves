@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Student Information</title>
+</head>
+<center>
+	<font color="black" size="4" style="font-family: avenir">
+
+		<h1 style="color: DodgerBlue">Student Database</h1>
+
+		<body bgcolor="lightgrey">
+
+			<form action="/addstdnt" autocomplete="on" method = "POST" enctype="multipart/form-data">
+
+				<button type="submit" formaction="/getstdnt" style="background: grey; height: 45px; width: 200px; color:white; font:oblique;">GET STUDENT INFORMATION</button><br><br>
+
+		  		Student ID:<br> <input style="height:25px;font-size:14pt; color:grey;" type="number" name="reg_id" autofocus size="40"><br><br>
+
+		  		Full Name:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="full_name" ><br><br>
+
+		  		Certification Name:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="cert_name"><br><br>
+
+		  		Verification  Number:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="verifi_num"><br><br>
+
+		  		Specialisation:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="specialisation"><br><br>
+
+		  		Pdf: <input type=file name="stdnt_pdf_file" style="height:25px;font-size:14pt;color:grey;"> <br><br>
+
+		  		<button type="submit" style="background: grey; height: 45px; width: 200px; color: white; size: 5; font:oblique;">UPDATE DATABASE</button>
+
+			</form>
+<a href="/about">About Us</a>
+		</body>
+
+	</font>
+</center>
+</html>
